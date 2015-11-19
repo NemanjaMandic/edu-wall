@@ -1,2 +1,27 @@
+$white: #FFF;
+$highlight:  #d2674e;
+$dark: #22292e;
+
+.wrapper_wide {
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper_skiny{
+     width: 60%;
+     margin: 0 auto;
+}
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
 @import 'normalize.scss';
 @import 'home.scss';
