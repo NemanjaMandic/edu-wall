@@ -1,6 +1,4 @@
-$white: #FFF;
-$highlight:  #d2674e;
-$dark: #22292e;
+
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -28,7 +26,7 @@ body{
 }
 
 .button {
-    color: $white;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 1rem;
     padding: 1rem 2rem;
@@ -40,19 +38,25 @@ body{
 }
 
 .button_highlight {
-    background: $highlight;
     transition: background .4s ease-in-out;
-    &:hover{
-        background: darken($highlight, 7.5%);
-    }
+    background: #d2674e;
+   
+   
+}
+
+.button_highlight:hover{
+        background: #A9753D;
+       
+       
 }
 .button_white{
-    background: $white;
-    color: $dark;
     transition: background .4s ease-in-out;
-    &:hover{
-        background: darken($white, 7.5%);
-    }
+    background: #FFFFFF;
+    color: #22292e;
+  
+   
 }
-@import 'normalize.scss';
-@import 'home.scss';
+.button_white:hover{
+     background: #BFB5B5;
+     color: #ffffff;
+}
