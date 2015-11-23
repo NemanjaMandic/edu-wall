@@ -220,5 +220,48 @@ body{
        #podcasts ul li:hover img{
          opacity: .8;
        }
+       #podcasts ul li:hover .podcast_overview h2{
+         color: #F7961D;
+       }
+       
+       .pagination:before, .pagination:after {
+         content: " ";
+         display: table;
+       }
+       .pagination:after{
+         clear: both;
+       }
+       .pagination{
+         text-align: center;
+         margin: 1rem 0 5rem 0;
+       }
+        .pagination a, .previous_page, .current, .next_page{
+          padding: 0.75rem 1rem;
+          margin: 0 .25rem;
+          border-radius: .15rem;
+          line-height: 1.25;
+          text-decoration: none;
+          background: #EDEFF5;
+          font-weight: 700;
+          font-size: .7rem;
+          font-style: normal;
+          color: #22292e;
+        }
+        
+        .pagination a:hover{
+          background: #F7961D;
+          color: #fff;
+        }
+        
+        .pagination .current{
+          background: #F7961D;
+          color: #fff;
+        }
+        .pagination .disabled{
+          color: #C0C0C0;
+        }
+        .pagination:hover .disabled {
+           color: #C0C0C0;
+        }
 /* --------------------END PODCASTS------------------------*/
 
