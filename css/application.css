@@ -298,4 +298,24 @@ body{
   margin: 0 .5rem;
   text-decoration: none;
 }
+.subscribe_link:hover {
+  background: #BB6C08;
+}
+#breadcrumb {
+  padding: .5rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #CFD4D8;
+  font-weight: 700;
+  font-size: .7rem;
+ 
+  
+}
+#breadcrumb a{
+   text-decoration: none;
+  color: #858A8E;
+}
+
+#breadcrumb span {
+  margin: 0 .5rem;
+}
 /* --------------------END PODCAST_SHOW -------------------*/
