@@ -265,3 +265,18 @@ body{
         }
 /* --------------------END PODCASTS------------------------*/
 
+/* -------------------- PODCAST_SHOW ----------------------*/
+
+#podcast_show #show_banner {
+  background: #22292e;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+#show_banner h1{
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #fff;
+  margin: 0 0 .5rem 0;
+}
+/* --------------------END PODCAST_SHOW -------------------*/
