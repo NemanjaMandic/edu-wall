@@ -360,3 +360,29 @@ body{
   
 }
 /* --------------------END PODCAST_SHOW -------------------*/
+
+/*-----------------------EPISODE---------------------------*/
+
+#episode_content{
+  padding: 4rem 0;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid #CFD4D8;
+}
+.current_episode_thumbnail{
+  display: block;
+  margin: 0 auto 2rem auto;
+  width: 10rem;
+  max-width: 100%;
+  border-radius: .35rem ;
+}
+#episode_content h2{
+  font-size: 1.5rem;
+  text-align: center;
+}
+#episode_content .desc{
+  text-align: center;
+  font-size: .9rem;
+  line-height: 1.7;
+  color: #3E454A;
+}
+/*-----------------------END EPISODE-----------------------*/
