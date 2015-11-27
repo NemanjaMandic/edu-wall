@@ -178,6 +178,10 @@ body{
           background-image: url(../images/swimmer_banner.jpg);
       }
       
+       .sign_up_banner{
+          background-image: url(../images/road_banner.png);
+      }
+      
       #podcasts{
         padding-bottom: 3rem;
       }
