@@ -386,3 +386,30 @@ body{
   color: #3E454A;
 }
 /*-----------------------END EPISODE-----------------------*/
+
+/*---------------------DASHBOARD----------------------------*/
+
+#links{
+  padding: 2rem 0;
+}
+#links ul{
+  list-style: none;
+  padding-left: 0;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+   border-bottom: 1px solid #CFD4D8;
+}
+
+#links ul li{
+  display: inline;
+  margin-right: 1rem;
+  font-weight: 700;
+}
+#links ul li a {
+  color: #22292e;
+  text-decoration: none;
+}
+#links ul li a:hover {
+  color: #556571;
+}
+/*---------------------END DASHBOARD----------------------------*/
