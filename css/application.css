@@ -412,4 +412,16 @@ body{
 #links ul li a:hover {
   color: #556571;
 }
+#links .current{
+  color:#F7961D;
+}
+#episodes .authorized_links{
+  font-weight: 700;
+  font-size: .8rem;
+  
+}
+.authorized_links a{
+  color: #F7961D;
+  margin-right: 1rem;
+}
 /*---------------------END DASHBOARD----------------------------*/
