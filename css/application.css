@@ -10,10 +10,19 @@ input[type="password"], textarea{
   height: 2.5rem;
   padding: .5rem 1rem;
   background: #EDEFF5;
+  border: 1px solid #6B6C71;
+  border-radius: .35rem;
+  margin-top: .5rem;
 }
-
+textarea {
+  min-height: 8rem;
+ 
+}
 .field{
   margin: .5rem 0 1.5rem 0;
+}
+#form{
+  padding: 0 0 5rem 0;
 }
 .wrapper_wide {
     width: 90%;
@@ -71,6 +80,11 @@ input[type="password"], textarea{
 .button_white:hover{
      background: #BFB5B5;
      color: #ffffff;
+}
+
+.button_block{
+  display: block;
+  margin: 0 auto;
 }
 /* -----------------------END GENERAL --------------------- */
 
